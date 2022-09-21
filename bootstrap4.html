@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"/> 
+    <title> Bui Minh Hieu - B19DCDT075 </title>
+  </head>
+
+  <boy>
+    <script src="java.js"></script>
+    <h1 class=" text-white text-center" style="background-image: linear-gradient(to right bottom, #f00606c3, #91ed11ba);border-radius:10px;font-weight: bold"> <i>Bui Minh Hieu - B19DCDT075</i></h1>
+    <div class="container-fluid pt-3 ">
+
+      <div class="row " style="justify-content: space-around">
+      
+        <div class="col-4  display-6 " style="height:200px;border-radius:10px; font-weight: bold">
+            <div class="pt-5 text-center  text-light">Nhiệt Độ
+              <script>
+                var y = document.getElementById("nhietdo").innerHTML = Math.floor(Math.random() * 100);
+                document.getElementById("nhietdo").innerHTML = Math.floor(Math.random() * 100)+"&degC";
+               if (y < 20){
+               document.getElementById("bg-success").style.backgroundColor = "pink";
+             }else if(y>=20 &&y < 40) {
+               document.getElementById("bg-success").style.backgroundColor = "yellow";
+             }else if( y < 60){
+               document.getElementById("bg-success").style.backgroundColor = "gray";
+             }else{
+               document.getElementById("bg-success").style.backgroundColor = "Lime";
+             }
+             
+             </script>
+        </div>
+      </div>
+    </div>
+    
+               
+              <div class="text-center ">30&degC</div>
+            </div>
+        </div>
+          <div class="col-4 display-6" style="height:200px;border-radius:10px; font-weight: bold;background-image: linear-gradient(to right bottom, #fd007a, #48ff00);">
+            <div class="pt-5 text-center  text-light">Độ Ẩm
+                 <div class="text-center">20%</div>
+            </div>
+        </div>
+          <div class="col-4 display-6" style="height:200px;border-radius:10px; font-weight: bold;background-image: linear-gradient(to right top, #e37e7e, #1f7de2);">
+            <div class="pt-5 text-center  text-light">Ánh Sáng
+               <img src="https://thuthuatnhanh.com/wp-content/uploads/2020/02/hinh-anh-ong-mat-troi-1.png" style="width:3rem;height:3rem;border-radius: 35px;"> 
+              <div class="text-center">90Lux</div>
+            </div>
+        </div>
+      </div>
+    </div>
+     <div class="container-fluid pt-2">
+      <div class="row" style="justify-content: space-around">
+        <div class="col-6  display-6  " style="height:500px;border-radius:10px; font-weight: bold">
+            <div class="text-center text-light" >
+                <p style="color:red !important">Biểu đồ</p>
+            </div>
+            <img src="https://video.vietjack.com/upload2/quiz_source1/2020/06/1-1591059850.png" class="mx-auto d-block" style="width:94%; border-radius: 10px;">   
+            </div>
+            <div class="col-6 display-6 " style="height:500px;border-radius:10px; font-weight: bold;">
+            <div class="button1 text-center " style="width:auto;height:250px; border-radius:10px;font-weight:bold;background-image: linear-gradient(to right , #e56731, #d6d322);">
+              <div class="btt1 pt-5 text-white mb-3">Button_1</div>
+             <button type="button" class="btn " style="color:rgb(255, 166, 0) !important; background-color: white  ;">ON</button>
+             <button type="button" class="btn " style="color:rgb(0, 149, 255) !important; background-color: white  ;">OFF</button>
+            </div>
+
+            <div class="button2 text-center " style="width:auto;height:250px; border-radius:10px;font-weight:bold;background-image: linear-gradient(to right bottom, #ed2727, #d58543);">
+                  <div class="btt1 pt-5 text-white">Button_2</div>
+             <button type="button" class="btn " style="color:rgb(55, 255, 0) !important; background-color: white  ;">ON</button>
+             <button type="button" class="btn "style="color: blue !important; background-color: white  ;">OFF</button>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    </boy>
+</html>+
